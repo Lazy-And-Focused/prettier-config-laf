@@ -1,0 +1,38 @@
+{
+  "displayName": "Prettier Config for LAF",
+  "name": "prettier-config-laf",
+  "version": "1.0.0",
+  "description": "Our (team) Prettier config",
+  "type": "module",
+  "keywords": [
+    "config",
+    "format",
+    "prettier",
+    "configuration",
+    "laf",
+    "Lazy-And-Focused"
+  ],
+  "author": {
+    "name": "Lazy-And-Focused",
+    "url": "https://laf-love.netlify.app/",
+    "email": "love.laf.command@gmail.com"
+  },
+  "contributors": [
+    {
+      "name": "lanvalird",
+      "email": "strazhognay@gmail.com",
+      "url": "https://lanvalird.ru"
+    }
+  ],
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "./index.js"
+  ],
+  "exports": "./index.js",
+  "peerDependencies": {
+    "prettier": "^3.0.0"
+  }
+}
